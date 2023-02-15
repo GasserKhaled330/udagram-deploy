@@ -19,7 +19,7 @@
 #eb deploy Udagramapi-env
 
 cd ./www
-eb init udagram-api --region us-east-1 --platform node.js
+
 eb use Udagramapi-env
 eb setenv POSTGRES_HOST=$POSTGRES_HOST
 PORT=$PORT
