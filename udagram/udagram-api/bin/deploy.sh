@@ -1,7 +1,7 @@
 set -x
 set -e
 
-eb use udagram-api-dev
+eb use Udagramapi-env
 
 eb setenv POSTGRES_HOST=$POSTGRES_HOST
           POSTGRES_DB=$POSTGRES_DB
@@ -16,4 +16,4 @@ eb setenv POSTGRES_HOST=$POSTGRES_HOST
           AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
           URL=$URL
 
-eb deploy udagram-api-dev
+eb deploy Udagramapi-env
