@@ -16,7 +16,17 @@ The project will also include writing documentation and runbooks covering the op
 
 This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
+# Demo
 
+## front-end URL
+
+http://udagrambucket.s3-website.us-east-2.amazonaws.com
+
+## Back-end URL
+
+http://udagramapi-env.eba-ncbczgp9.us-east-1.elasticbeanstalk.com/api/v0/
+
+![screenshot](https://github.com/GasserKhaled330/udagram-deploy/blob/master/screenshots/app.png)
 
 ### Dependencies
 
@@ -66,7 +76,7 @@ The e2e tests are using Protractor and Jasmine.
 - [Angular](https://angular.io/) - Single Page Application Framework
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
-
+- [Postgresql](https://www.postgresql.org/) - Postgresql Database
 ## License
 
 [License](LICENSE.txt)
